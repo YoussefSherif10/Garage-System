@@ -1,1 +1,3 @@
 # Garage-System
+ This project is a design of a microcontroller-based garage system that has a maximum capacity of 90 cars. The garage has two gates, one at the entrance and the other at the exit. Each gate has a sensor to sense if a vehicle goes in or out of the garage. Each gate can be controlled by a motor, to open if a car needs to exit the garage (exit gate) or enter the garage (entrance gate) while there are still free spaces in the garage. The garage also has a 2-digit 7-segment display to show the remaining number of free car slots (at the start, all slots are free).
+I used push-button switches instead of the sensors for simplicity. These switches are connected to the external interrupt pins.
